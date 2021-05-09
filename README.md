@@ -98,4 +98,4 @@
 2. Referans tipleri : örnek dizi, sınıf, interface abstract class...
     Referans tipleri atama yapılırken o değişken tanımlamasının bellekteki adresi aktarılır bu nedenle Atama yapılan değişkenlerdeki değişiklik değişkenin bellek adresinde yapıldığı için atama yapılan de yapılan değişiklik aktarılır.
 
-##### Stringler istisnai durum içerir Stringler arka planda karakter dizisi olarak tutulsa da Yeni geliştirilen java sürümlerinde bu işlemler için String özel olarak değer tip kapsamına alınmıştır.
+##### Stringler istisnai durum içerir Stringler arka planda karakter dizisi olarak tutulsa da Yeni geliştirilen java sürümlerinde bu işlemler için String özel olarak değer tip kapsamına alınmıştır. 
