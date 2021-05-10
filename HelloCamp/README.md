@@ -1,39 +1,39 @@
 
-# GÜN 1
-
+# Hello CAMP
 <br>
 
 #### ÖRNEK 1-1
+
 ```java
 
-    String internetBranch = "İnternet Şubeye gir";
+String internetBranch = "İnternet Şubeye gir";
 
-    System.out.println(internetSubesi);
-    System.out.println(internetSubesi);
-    System.out.println(internetSubesi);
-    System.out.println(internetSubesi);
-    System.out.println(internetSubesi);
-    System.out.println(internetSubesi);
-    System.out.println(internetSubesi);
+System.out.println(internetSubesi);
+System.out.println(internetSubesi);
+System.out.println(internetSubesi);
+System.out.println(internetSubesi);
+System.out.println(internetSubesi);
+System.out.println(internetSubesi);
+System.out.println(internetSubesi);
 ```
 
 <br><br>
 
 #### ÖRNEK 1-2
 ```java
-    double dlrYesterday = 8.20;
-    double dlrToday = 8.20;
-    int maturity = 36;
-    boolean dlrFell = true;
+double dlrYesterday = 8.20;
+double dlrToday = 8.20;
+int maturity = 36;
+boolean dlrFell = true;
 
-    if(dlrYesterday < dlrToday){
-        System.out.println("Dolar Yükseldi");
-    }else if(dlrYesterday > dlrToday){
-        System.out.println("Dolar Düştü");
-    }
-    else{
-        System.out.println("Dolar Aynı");
-    }
+if(dlrYesterday < dlrToday){
+    System.out.println("Dolar Yükseldi");
+}else if(dlrYesterday > dlrToday){
+    System.out.println("Dolar Düştü");
+}
+else{
+    System.out.println("Dolar Aynı");
+}
 ```
 
 <br><br>
@@ -41,36 +41,36 @@
 
 #### ÖRNEK 1-3
 ```java
-    String kredit1 = "hızlı Kredi";
-    String kredit2 = "Mıtlu Emekli Kredisi";
-    String kredit3 = "Konut Kredisi";
-    String kredit4 = "Çiftçi Kredisi";
-    String kredit5 = "Msb Kredisi";
-    
-    
-    System.out.println(kredit1);
-    System.out.println(kredit2);
-    System.out.println(kredit3);
-    System.out.println(kredit4);
-    System.out.println(kredit5);
-    
-    
-    String[] allKredits = 
-    {
-        "hızlı Kredi",
-        "Mıtlu Emekli Kredisi",
-        "Konut Kredisi",
-        "Çiftçi Kredisi",
-        "Msb Kredisi"
-    }; 
-    
-    for(String kredit : allKredits){
-        System.out.println(kredit);
-    }
-    
-    for(int i = 0 ; i < allKredits.length ; i++){
-        System.out.println(allKredits[i]);
-    }
+String kredit1 = "hızlı Kredi";
+String kredit2 = "Mıtlu Emekli Kredisi";
+String kredit3 = "Konut Kredisi";
+String kredit4 = "Çiftçi Kredisi";
+String kredit5 = "Msb Kredisi";
+
+
+System.out.println(kredit1);
+System.out.println(kredit2);
+System.out.println(kredit3);
+System.out.println(kredit4);
+System.out.println(kredit5);
+
+
+String[] allKredits = 
+{
+    "hızlı Kredi",
+    "Mıtlu Emekli Kredisi",
+    "Konut Kredisi",
+    "Çiftçi Kredisi",
+    "Msb Kredisi"
+}; 
+
+for(String kredit : allKredits){
+    System.out.println(kredit);
+}
+
+for(int i = 0 ; i < allKredits.length ; i++){
+    System.out.println(allKredits[i]);
+}
 ```
 
 <br><br>
@@ -78,17 +78,17 @@
 #### ÖRNEK 1-4
 
 ```java
-    int value1 = 10;
-    int value2 = 20;
-    value1 = value2;
-    value2 = 100;
-    System.out.println(value1);
-    
-    int[] array1 = {1,2,3,4,5};
-    int[] array2 = {10,20,30,40,50};
-    array1 = array2;
-    array2[0] = 100;
-    System.out.println(array1[0]);
+int value1 = 10;
+int value2 = 20;
+value1 = value2;
+value2 = 100;
+System.out.println(value1);
+
+int[] array1 = {1,2,3,4,5};
+int[] array2 = {10,20,30,40,50};
+array1 = array2;
+array2[0] = 100;
+System.out.println(array1[0]);
 ```
 <br>
 
