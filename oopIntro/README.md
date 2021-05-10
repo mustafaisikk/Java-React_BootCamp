@@ -32,33 +32,31 @@ public class Category {
 <br>
 
 ```java
-
 Product product1 = new Product(); // Referans oluşturma / instance
-    product1.id = 1;
-    product1.name = "Lenovo V14";
-    product1.unit_price = 15000;
-    product1.detail = "16 GB Ram";
-    
-    Product product2 = new Product();
-    product2.id = 2;
-    product2.name = "Lenovo V15";
-    product2.unit_price = 20000;
-    product2.detail = "32 GB Ram";
-        
-    Product product3 = new Product();
-    product3.id = 3;
-    product3.name = "Hp 5";
-    product3.unit_price = 10000;
-    product3.detail = "8 GB Ram";
+product1.id = 1;
+product1.name = "Lenovo V14";
+product1.unit_price = 15000;
+product1.detail = "16 GB Ram";
 
-    Category category1 = new Category();
-    category1.id = 1;
-    category1.name = "Bilgisayar";
+Product product2 = new Product();
+product2.id = 2;
+product2.name = "Lenovo V15";
+product2.unit_price = 20000;
+product2.detail = "32 GB Ram";
     
-    Category category2 = new Category();
-    category2.id = 1;
-    category2.name = "Ev/Bahçe";
-}
+Product product3 = new Product();
+product3.id = 3;
+product3.name = "Hp 5";
+product3.unit_price = 10000;
+product3.detail = "8 GB Ram";
+
+Category category1 = new Category();
+category1.id = 1;
+category1.name = "Bilgisayar";
+
+Category category2 = new Category();
+category2.id = 1;
+category2.name = "Ev/Bahçe";
 
 ```
 
